@@ -4,11 +4,11 @@ Useful for network admin and pentesting to get a quick and easy summary of a net
 
 1. Compile with gcc like:
 
-`gcc subnetter.c -o subnetter.o
+`gcc subnetter.c -o subnetter.o `
 
 2. Run like:
 
-`./subnetter.o 192.168.0.30 255.255.255.0
+`./subnetter.o 192.168.0.30 255.255.255.0 `
 
 3. Output:
 
