@@ -45,4 +45,4 @@ Alternatively use `tail` and `awk`like e.g. with [cidr2mask](https://github.com/
 echo $(ifconfig wlan0 | grep 'inet' | head -1 | awk -F ' ' '{print $2}')  $(cidr2mask 24 | tail -1 |  awk -F ': ' '{print $2}') | xargs subnetter | tail -1 | awk -F ': ' '{print $2}'
 ```
 
-The above outputs usable hosts for the wlan0 network interace
+The above outputs usable hosts for the network on the wlan0 network interace
