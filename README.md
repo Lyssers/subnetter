@@ -39,7 +39,7 @@ Optional: `sudo cp ./subnetter.o /usr/bin/subnetter` to run it with just `subnet
 
 Output is very verbose by default which works for my need, if you'd like a more parseable mode please let me know!
 
-Alternatively use `tail` and `awk`like e.g. with cidr2mask
+Alternatively use `tail` and `awk`like e.g. with [cidr2mask](https://github.com/Lyssers/cidr2mask/)
 
 ```
 echo $(ifconfig wlan0 | grep 'inet' | head -1 | awk -F ' ' '{print $2}')  $(cidr2mask 24 | tail -1 |  awk -F ': ' '{print $2}') | xargs subnetter | tail -1 | awk -F ': ' '{print $2}'
