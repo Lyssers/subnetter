@@ -8,7 +8,7 @@ Useful for network admin and pentesting to get a quick and easy summary of a net
 
 2. Run like:
 
-`./subnetter.o 192.168.0.30 255.255.255.0 `
+`./subnetter.o <ip_address> <subnet> ` e.g. `./subnetter.o 192.168.0.30 255.255.255.0 `
 
 3. Output:
 
