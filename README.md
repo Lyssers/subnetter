@@ -37,7 +37,7 @@ Usable Hosts: 255
 
 Optional: `sudo cp ./subnetter.o /usr/bin/subnetter` to run it with just `subnetter`
 
-Output is very verbose by default which works for my need, if you'd like a more parseable mode please let me know!
+Output is very verbose by default which works for my needs, if you'd like a more parseable mode please let me know!
 
 Alternatively use `tail` and `awk`like e.g. with [cidr2mask](https://github.com/Lyssers/cidr2mask/)
 
